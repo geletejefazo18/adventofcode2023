@@ -3,6 +3,7 @@ package org.example;
 import challenge.Day1;
 import challenge.Day10;
 import challenge.Day11;
+import challenge.Day12;
 import challenge.Day2;
 import challenge.Day3;
 import challenge.Day4;
@@ -23,6 +24,6 @@ public class App {
 
     public static void main( String[] args ) throws Exception {
         List<String> input = InputReader.getInput();
-        new Day11().getResult2(input);
+        new Day12().getResult2(input);
     }
 }
